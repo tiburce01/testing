@@ -1,4 +1,4 @@
-Test First Ruby -- RSpec HELLO , BOWLING
+Test First Ruby
 ==========
 
 ### Set up instructions
@@ -12,7 +12,7 @@ Test First Ruby -- RSpec HELLO , BOWLING
 
 To work through the first exercise, follow this process
 
-1. `cd` into `hello` and bowling from the root folder of this project
+1. `cd` into `hello` for example from the root folder of this project
 2. Run `rake`, to run the tests. It will fail with the following error:
 3. If the test fails to run and you get a `rake aborted! No Rakefile found` or any other error message not like the one above ensure that your working directory (`pwd` to see the path) contains no spaces as this is a common mistake made by people new to Rspec.
    Second solution : Change the path require in bowling_spec.rb and hello_spec.rb to require 'lib/bowling' and 'lib/hello' for run , after run rake.
