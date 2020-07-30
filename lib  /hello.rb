@@ -1,3 +1,4 @@
-def hello  
-    return "Bonjour world!"    
+def hello  # fonction says hello
+    return "Hello!"    
 end
+
